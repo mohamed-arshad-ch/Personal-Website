@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOHAMED ARSHAD</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+
+
+
+
+
+</head>
+<body>
+    <header>
+        <div class="row text-white">
+            <div class="col-md-6 col-9 p-3 pl-5">
+              
+            </div>
+            <div class="col-md-6 col-3 my-auto">
+              <nav class="navbar navbar-expand-lg navbar-light ">
+               
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">SERVICE</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">CONTACT ME</a>
+                    </li>
+              
+                </div>
+              </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" style="padding-top: 10em; padding-bottom: 5em;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img class="img-fluid rounded-circle" src="me.jpeg">
+                </div>
+                <div class="col-md-6">
+                  <h2 class="pt-4 title-name">MOHAMED ARSHAD</h3>
+                    <h4 class="pt-1">Full Stack Developer</h4>
+                    <p >Let's Work Together</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light p-5">
+        <div class="container">
+            <h1 class="text-center">SERVICES</h1>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card text-center p-3 mt-2">
+                        <i class="fas fa-desktop display-1 icon-color"></i>
+                        <div class="card-body">
+                          <h5 class="card-title">WEB Developer</h5>
+                          <p class="card-text" style="height: 10em;">Building Responsive Website.</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center p-3 mt-2">
+                        <i class="fas fa-mobile display-1 icon-color"></i>
+                        <div class="card-body">
+                          <h5 class="card-title">APP Developer</h5>
+                          <p class="card-text" style="height: 10em;">Crete New Fetured Apps</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center p-3 mt-2">
+                        <i class="fas fa-desktop display-1 icon-color"></i>
+                        <div class="card-body">
+                          <h5 class="card-title">Desktop Application</h5>
+                          <p class="card-text" style="height: 10em;">Designing and Developing Secure Smart contracts.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section class="p-5 mt-5 bg-light" id="contactme">
+        <div class="container">
+            <h1 class="text-center">Contact Me</h1>
+            <div class="row pt-3">
+                <div class="col-md-12">
+                    <form>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                              <label for="name">Name</label>
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                          </div>
+                          <div class="form-group col-md-6">
+                              <label for="phone_number">Phone Number</label>
+                              <input type="tel" class="form-control" name="phone_number" id="phone_number" placeholder="Phone Number">
+                          </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-12">
+                            <label for="email">Email Address</label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email Address">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="comment">Comment</label>
+                          <textarea name="comment" id="comment" cols="30" rows="10" class="form-control" placeholder="Write Message"></textarea>
+                        </div>
+                        <div class="form-group text-center">
+                          <!-- this button is not for submiting, it is used for calling contactMe() function, use submit for server side handling -->
+                        <button type="button"  class="btn btn-primary text-center button-color" style="width: 100%;">Submit</button>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer-colors">
+        <div class="container">
+            <div class="row">
+                
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/fb2c17728a.js" crossorigin="anonymous"></script>
+   
+    
+</body>
+</html>

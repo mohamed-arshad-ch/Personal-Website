@@ -1,0 +1,37 @@
+body{
+    font-family: 'Cabin', sans-serif;
+}
+.rounded-circle{
+    width: 90%;
+}
+
+
+.fa-user-ninja{
+    font-size: 2em;
+}
+
+.navbar{
+    justify-content: flex-end;
+}
+.col-md-6.col-3.my-auto {
+	background-color: white;
+}
+.col-md-6.col-9.p-3.pl-5 {
+	background-color: white;
+}
+
+header{
+
+    position: fixed; 
+    width: 100%;
+     z-index: 1;
+}
+.button-color{
+    background-color: #8080ff;
+    color: white;
+}
+.footer-colors{
+
+    background-color: #8080ff;
+
+}
