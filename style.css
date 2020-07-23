@@ -1,5 +1,5 @@
 body{
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 .rounded-circle{
     width: 90%;
@@ -27,11 +27,24 @@ header{
      z-index: 1;
 }
 .button-color{
-    background-color: #8080ff;
+    background-color: black;
     color: white;
 }
 .footer-colors{
 
     background-color: #8080ff;
 
+}
+/* .fab.fa-facebook-f.fa-lg.white-text.mr-md-5.mr-3.fa-2x {
+	color: black !important;
+}
+.fab.fa-linkedin-in.fa-lg.white-text.mr-md-5.mr-3.fa-2x {
+	color: black !important;
+}
+.fab.fa-instagram.fa-lg.white-text.mr-md-5.mr-3.fa-2x {
+	color: black !important;
+} */
+
+.fab{
+    color: black !important;
 }
