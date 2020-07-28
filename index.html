@@ -131,7 +131,7 @@
                         </div>
                         <div class="form-group text-center">
                          
-                        <button type="button"  class="btn btn-primary text-center button-color" style="width: 100%;">Submit</button>
+                        <button type="button"  class="btn btn-primary text-center button-color" onclick="show_alert();" style="width: 100%;">Submit</button>
                         </div>
                       </form>
                 </div>
@@ -198,6 +198,11 @@
     <script>
       AOS.init();
     </script>
+        <script>
+            function show_alert() {
+                alert("Your Data Submitted");
+            }
+        </script>
    
     
 </body>
